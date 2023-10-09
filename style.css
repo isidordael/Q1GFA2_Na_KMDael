@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Hind+Madurai:wght@300&display=swap');
+
+.menubar{
+    text-align: center;
+    background-color: #a5d0ab;
+    height: 8vh;
+    width: 100vw;
+    position: fixed;
+}
+.title{
+    font-family: 'Dela Gothic One', cursive;
+    font-size: xx-large;
+    color: #4d6851;
+    padding: 1rem;
+}
+.container{
+    text-align: center;
+    background-color: #E0EEC6;
+    width: 100vw;
+    height: 100vh;
+}
+.sidelinks {
+    display: inline-block;
+    border: 4px solid rgb(191, 185, 185);
+    width: 5vw;
+    margin-top: 20vh;
+    float: left;
+    padding: 15px;
+    border-radius: 34px;
+    background-color: #F1F7ED;
+    opacity: .70;
+}
+.sidelinks a{
+    display: block;
+    padding: 10px;
+}
+.main-content{
+    display: inline-block;
+    border: 4px solid rgb(191, 185, 185);
+    width: 60vw;
+    margin-left: 1px;
+    margin-right: 1px;
+    text-align: center;
+    margin-top: 15vh;
+    border-radius: 34px;
+    background-color: #F1F7ED;
+    height: 50vh;
+}
+.side-content{
+    display: inline-block;
+    border: 4px solid rgb(191, 185, 185);
+    width: 15vw;
+    float: right;
+    margin-top: 20vh;
+    border-radius: 34px;
+    background-color: #F1F7ED;
+    height: 36vh;
+}
+.main-content h2{
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: x-large;
+    color:  #59785d;
+}
+.main-content img{
+    width: 16vw;
+    margin-bottom: 2vh;
+    float: left;
+}
+.main-content p{
+    font-family: 'Cormorant', serif;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: large;
+}
+.side-content h3{
+    font-family: 'Hind Madurai', sans-serif;
+    color:  #59785d;
+}
+.side-content ul{
+    font-family: 'Cormorant', serif;
+    font-family: 'Hind Madurai', sans-serif;
+}
